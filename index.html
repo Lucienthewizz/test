@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learning platform for mastering technology skills for Web 5.0 era.">
     <title>Codenet.</title>
 
     <!--BOXICONS 2.1.4-->
@@ -16,7 +17,13 @@
     <!--CSS-->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- AOS -->
+    <!-- Swiper JS-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    
+    <!--AOS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
@@ -44,10 +51,10 @@
                     <a href="/" class="navbar-links">Kontak</a>
                 </li>
                 <li class="navbar-btn">
-                    <a href="/" class="button-log">Masuk</a>
+                    <a href="./login.html" class="button-log">Masuk</a>
                 </li>
                 <li class="navbar-btn">
-                    <a href="/" class="button-sign">Daftar</a>
+                    <a href="./signup.html" class="button-sign">Daftar</a>
                 </li>
             </ul>
         </div>
@@ -69,7 +76,7 @@
                     keterampilan teknologi untuk era Web 5.0.
                 </p>
                 <button class="main-btn">
-                    <a href="/">Mulai Sekarang</a>
+                    <a href="./login.html">Mulai Sekarang</a>
                 </button>
             </div>
             <div 
@@ -116,8 +123,6 @@
     <!-- PEMBATAS #1 -->
     <div 
       class="pembatas-1" 
-      data-aos="fade-up"
-      data-aos-duration="400"
       >
       <img src="./assets/Gambar 8.png" alt="waves">
     </div>
@@ -289,6 +294,136 @@
       </div>
     </section>
 
+    <!-- PEMBATAS 3 -->
+    <div style="overflow: hidden;">
+      <svg
+        preserveAspectRatio="none"
+        viewBox="0 0 1200 120"
+        xmlns="http://www.w3.org/2000/svg"
+        style="fill: #0693e3; width: 100%; height: 200px; transform: scaleX(-1);"
+      >
+        <path
+        d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
+        opacity=".25"
+      />
+        <path
+          d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
+          opacity=".5"
+        />
+        <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
+      </svg>
+    </div>
+
+    <!-- TESTIMONIAL SECTION -->
+    <div class="page" id="class">
+      <div class="container">
+        <div class="testi">
+          <div class="head"
+          data-aos="fade-up-right"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="800"
+          data-aos-delay="150"
+          >
+            <h3>Testimoni Siswa <span>Codenet</span></h3>
+            <p>Simak pengalaman siswa kami! Di Codenet, kami membantu mereka meningkatkan keterampilan dan mempersiapkan masa depan yang lebih cerah.</p>
+          </div>
+          <div class="body swiper" 
+          data-aos="fade-up-left"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="800"
+          data-aos-delay="350">
+            <!-- Swiper Wrapper -->
+            <ul class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <li class="swiper-slide">
+                <div class="wrapper">
+                  <div class="thumbnail">
+                    <img src="./assets/Gambar 16.jpg" alt="Bill Gates">
+                  </div>
+                  <div class="aside">
+                    <p>Codenet memberi saya fondasi teknologi yang kokoh. Di sini, saya belajar bagaimana inovasi dapat memecahkan masalah dunia, mendorong saya untuk berpikir kritis dan kreatif.</p>
+                    <div class="name">
+                      <h4>Bill <span class="dark-blue">Gates</span></h4>
+                      <p>Microsoft CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Slide 2 -->
+              <li class="swiper-slide">
+                <div class="wrapper">
+                  <div class="thumbnail">
+                    <img src="./assets/Gambar 17.jpg" alt="Steve Jobs">
+                  </div>
+                  <div class="aside">
+                    <p>Di Codenet, saya menemukan bahwa desain dan teknologi harus berpadu. Lingkungan kreatifnya menginspirasi saya untuk mengeksplorasi ide-ide besar dan menciptakan produk yang mengubah kehidupan.</p>
+                    <div class="name">
+                      <h4>Steve <span class="dark-blue">Jobs</span></h4>
+                      <p>Apple CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Slide 3 -->
+              <li class="swiper-slide">
+                <div class="wrapper">
+                  <div class="thumbnail">
+                    <img src="./assets/Gambar 18.jpg" alt="Elon Musk">
+                  </div>
+                  <div class="aside">
+                    <p>Codenet membekali saya dengan keterampilan praktis yang diperlukan untuk mewujudkan visi saya. Pengalaman belajar di sini mendorong saya untuk berpikir besar dan berinovasi tanpa batas.</p>
+                    <div class="name">
+                      <h4>Elon <span class="dark-blue">Musk</span></h4>
+                      <p>Tesla and SpaceX CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Slide 4 -->
+              <li class="swiper-slide">
+                <div class="wrapper">
+                  <div class="thumbnail">
+                    <img src="./assets/Gambar 19.jpeg" alt="Sundar Pichai">
+                  </div>
+                  <div class="aside">
+                    <p>Pengalaman di Codenet mengajarkan saya pentingnya kolaborasi dan kreativitas dalam pengembangan teknologi. Lingkungan yang mendukung membuat saya merasa terinspirasi untuk mengeksplorasi ide-ide baru. Saya merasa siap untuk berkontribusi pada teknologi yang tidak hanya inovatif, tetapi juga membawa perubahan positif bagi masyarakat.</p>
+                    <div class="name">
+                      <h4>Sundar <span class="dark-blue">Pichai</span></h4>
+                      <p>Google CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+    
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+    
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exstra -->
+    <div class="extra">
+      <div class="extra-container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-duration="800"
+        data-aos-delay="500">
+        <div class="extra-box">
+          <h2>Jangan Tunggu Lebih Lama!</h2>
+          <p>Tingkatkan keterampilanmu dengan Learning Path yang dirancang khusus. Bergabunglah hari ini dan capai tujuan belajarmu dengan lebih efektif!</p>
+          <button>
+            <a href="./login.html">Mulai</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- SCROLL TO TOP -->
      <button 
      class="scrollTop" 
@@ -296,12 +431,19 @@
       <i class='bx bxs-arrow-to-top' ></i>
     </button>
     
-    <!--JavaScript--> 
+    <!--JavaScript-->
+
+    <!-- PLUGIN -->
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- AOS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+    <!-- INDEX JS-->
     <script src="./js/index.js" defer></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
 </body>
 
 <footer>

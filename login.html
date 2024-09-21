@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Codenet</title>
+
+    <!--BOXICONS 2.1.4-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--GOOGLE FONTS: Inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/singup-login.css">
+
+    <!--JAVASCRIPT-->
+    <script type="text/javaScript" src="./js/validation.js" defer></script>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <a href="./index.html" class="back-icon">
+            <i class='bx bxs-left-arrow-circle'></i>
+            Go back
+        </a>
+        <h1>Login <span>Codenet</span></h1>
+        <form action="" id="form">
+            <div>
+                <label for="email-input">
+                    <i class='bx bxs-envelope' ></i>
+                </label>
+                <input type="email" name="email" id="email-input" placeholder="Email">
+            </div>
+            <div>
+                <label for="password-input">
+                    <i class='bx bxs-lock-alt'></i>
+                </label>
+                <input type="password" name="password" id="password-input" placeholder="Password">
+            </div>
+            <button type="button" onclick="location.href='index.html'">Login</button>
+        </form>
+        <p>User baru? <a href="signup.html">buat akun baru</a></p>
+    </div>
+</body>
+</html>
